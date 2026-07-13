@@ -73,3 +73,19 @@ jobs:
               --notes "Permanent download for the latest Amber Modern theme." \
               --prerelease
           fi
+
+      - name: Update version badge
+        shell: bash
+        run: |
+          printf '{"schemaVersion":1,"label":"Version","message":"%s","color":"D6A21E"}\n' "$VERSION" \
+            > themes/AmberModern/version-badge.json
+
+          if git diff --quiet -- themes/AmberModern/version-badge.json; then
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add themes/AmberModern/version-badge.json
+          git commit -m "Update Amber Modern badge to v$VERSION [skip ci]"
+          git push
