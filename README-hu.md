@@ -1,4 +1,6 @@
-[🇺🇸 English](README.md) | [🇺🇦 Українська](README-uk.md) | [🇧🇾 Беларуская](README-be.md) | [<sub>ru</sub> Русский](README-ru.md) | [🇵🇱 Polski](README-pl.md) | [🇨🇿 Čeština](README-cs.md) | [🇸🇰 Slovenčina](README-sk.md) | [🇩🇪 Deutsch](README-de.md) | [🇮🇹 Italiano](README-it.md) | [🇪🇸 Español](README-es.md)
+🇺🇸 [English](README.md) | 🇺🇦 [Українська](README-uk.md) | 🇧🇾 [Беларуская](README-be.md) | <sub>ru</sub> [Русский](README-ru.md) | 🇵🇱 [Polski](README-pl.md) | 🇨🇿 [Čeština](README-cs.md) | 🇸🇰 [Slovenčina](README-sk.md) | 🇩🇪 [Deutsch](README-de.md) | 🇮🇹 [Italiano](README-it.md) | 🇪🇸 [Español](README-es.md)
+
+<hr>
 
 Üdv, dinoszauruszok 🦕 — egy dinoszaurusztól (igen, még mindig használom a Far Managert, és szeretem).
 

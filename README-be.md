@@ -1,4 +1,6 @@
-[🇺🇸 English](README.md) | [🇺🇦 Українська](README-uk.md) | [<sub>ru</sub> Русский](README-ru.md) | [🇵🇱 Polski](README-pl.md) | [🇨🇿 Čeština](README-cs.md) | [🇸🇰 Slovenčina](README-sk.md) | [🇩🇪 Deutsch](README-de.md) | [🇭🇺 Magyar](README-hu.md) | [🇮🇹 Italiano](README-it.md) | [🇪🇸 Español](README-es.md)
+🇺🇸 [English](README.md) | 🇺🇦 [Українська](README-uk.md) | <sub>ru</sub> [Русский](README-ru.md) | 🇵🇱 [Polski](README-pl.md) | 🇨🇿 [Čeština](README-cs.md) | 🇸🇰 [Slovenčina](README-sk.md) | 🇩🇪 [Deutsch](README-de.md) | 🇭🇺 [Magyar](README-hu.md) | 🇮🇹 [Italiano](README-it.md) | 🇪🇸 [Español](README-es.md)
+
+<hr>
 
 Прывітанне, дыназаўры 🦕 ад дыназаўра (так, я таксама дагэтуль карыстаюся Far Manager, і мне гэта падабаецца).
 

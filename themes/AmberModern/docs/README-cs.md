@@ -1,4 +1,6 @@
-[🇺🇸 English](../README.md) | [🇺🇦 Українська](README-uk.md) | [🇧🇾 Беларуская](README-be.md) | [<sub>ru</sub> Русский](README-ru.md) | [🇵🇱 Polski](README-pl.md) | [🇸🇰 Slovenčina](README-sk.md) | [🇩🇪 Deutsch](README-de.md) | [🇭🇺 Magyar](README-hu.md) | [🇮🇹 Italiano](README-it.md) | [🇪🇸 Español](README-es.md)
+🇺🇸 [English](../README.md) | 🇺🇦 [Українська](README-uk.md) | 🇧🇾 [Беларуская](README-be.md) | <sub>ru</sub> [Русский](README-ru.md) | 🇵🇱 [Polski](README-pl.md) | 🇸🇰 [Slovenčina](README-sk.md) | 🇩🇪 [Deutsch](README-de.md) | 🇭🇺 [Magyar](README-hu.md) | 🇮🇹 [Italiano](README-it.md) | 🇪🇸 [Español](README-es.md)
+
+<hr>
 
 # 🎨 Barevné téma Amber Modern
 
@@ -15,7 +17,7 @@
 
 Amber Modern používá rozšířenou paletu barev, a proto vyžaduje zapnuté **Virtual Terminal Rendering**. Potřebné nastavení je již zapnuto v souboru tématu.
 
-1. [Stáhněte téma](../AmberModernAndVtrEnabler.farconfig) a umístěte soubor do adresáře Far Manageru.
+1. [Stáhněte téma](https://github.com/LanKing/far-tools/releases/latest/download/AmberModernAndVtrEnabler.farconfig) a umístěte soubor do adresáře Far Manageru.
 2. Úplně zavřete všechny spuštěné instance Far Manageru.
 3. Spusťte příkaz:
 
@@ -28,5 +30,3 @@ Amber Modern používá rozšířenou paletu barev, a proto vyžaduje zapnuté *
 ## 📄 Licence
 
 Amber Modern je šířen pod [licencí MIT](../LICENSE). Vylepšení a návrhy jsou vítány 😊
-
-Far Manager je šířen pod [licencí BSD 3-Clause](https://github.com/FarGroup/FarManager/blob/master/LICENSE).

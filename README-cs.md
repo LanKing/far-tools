@@ -1,4 +1,6 @@
-[🇺🇸 English](README.md) | [🇺🇦 Українська](README-uk.md) | [🇧🇾 Беларуская](README-be.md) | [<sub>ru</sub> Русский](README-ru.md) | [🇵🇱 Polski](README-pl.md) | [🇸🇰 Slovenčina](README-sk.md) | [🇩🇪 Deutsch](README-de.md) | [🇭🇺 Magyar](README-hu.md) | [🇮🇹 Italiano](README-it.md) | [🇪🇸 Español](README-es.md)
+🇺🇸 [English](README.md) | 🇺🇦 [Українська](README-uk.md) | 🇧🇾 [Беларуская](README-be.md) | <sub>ru</sub> [Русский](README-ru.md) | 🇵🇱 [Polski](README-pl.md) | 🇸🇰 [Slovenčina](README-sk.md) | 🇩🇪 [Deutsch](README-de.md) | 🇭🇺 [Magyar](README-hu.md) | 🇮🇹 [Italiano](README-it.md) | 🇪🇸 [Español](README-es.md)
+
+<hr>
 
 Ahoj, dinosauři 🦕 — zdraví vás další dinosaurus (ano, Far Manager stále používám a mám ho rád).
 

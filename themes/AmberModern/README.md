@@ -1,4 +1,6 @@
-[🇺🇦 Українська](docs/README-uk.md) | [🇧🇾 Беларуская](docs/README-be.md) | [<sub>ru</sub> Русский](docs/README-ru.md) | [🇵🇱 Polski](docs/README-pl.md) | [🇨🇿 Čeština](docs/README-cs.md) | [🇸🇰 Slovenčina](docs/README-sk.md) | [🇩🇪 Deutsch](docs/README-de.md) | [🇭🇺 Magyar](docs/README-hu.md) | [🇮🇹 Italiano](docs/README-it.md) | [🇪🇸 Español](docs/README-es.md)
+🇺🇦 [Українська](docs/README-uk.md) | 🇧🇾 [Беларуская](docs/README-be.md) | <sub>ru</sub> [Русский](docs/README-ru.md) | 🇵🇱 [Polski](docs/README-pl.md) | 🇨🇿 [Čeština](docs/README-cs.md) | 🇸🇰 [Slovenčina](docs/README-sk.md) | 🇩🇪 [Deutsch](docs/README-de.md) | 🇭🇺 [Magyar](docs/README-hu.md) | 🇮🇹 [Italiano](docs/README-it.md) | 🇪🇸 [Español](docs/README-es.md)
+
+<hr>
 
 # 🎨 Amber Modern color theme
 
@@ -15,7 +17,7 @@
 
 Amber Modern uses an extended color palette and therefore requires **Virtual Terminal Rendering**. The required setting is already enabled in the theme file.
 
-1. [Download the theme](AmberModernAndVtrEnabler.farconfig) and place it in the Far Manager directory.
+1. [Download the theme](https://github.com/LanKing/far-tools/releases/latest/download/AmberModernAndVtrEnabler.farconfig) and place it in the Far Manager directory.
 2. Completely close all running Far Manager instances.
 3. Run the following command:
 
@@ -28,5 +30,3 @@ Amber Modern uses an extended color palette and therefore requires **Virtual Ter
 ## 📄 License
 
 Amber Modern is distributed under the [MIT License](LICENSE). Improvements and suggestions are welcome 😊
-
-Far Manager is distributed under the [BSD 3-Clause License](https://github.com/FarGroup/FarManager/blob/master/LICENSE).

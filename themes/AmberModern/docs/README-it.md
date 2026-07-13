@@ -1,4 +1,6 @@
-[🇺🇸 English](../README.md) | [🇺🇦 Українська](README-uk.md) | [🇧🇾 Беларуская](README-be.md) | [<sub>ru</sub> Русский](README-ru.md) | [🇵🇱 Polski](README-pl.md) | [🇨🇿 Čeština](README-cs.md) | [🇸🇰 Slovenčina](README-sk.md) | [🇩🇪 Deutsch](README-de.md) | [🇭🇺 Magyar](README-hu.md) | [🇪🇸 Español](README-es.md)
+🇺🇸 [English](../README.md) | 🇺🇦 [Українська](README-uk.md) | 🇧🇾 [Беларуская](README-be.md) | <sub>ru</sub> [Русский](README-ru.md) | 🇵🇱 [Polski](README-pl.md) | 🇨🇿 [Čeština](README-cs.md) | 🇸🇰 [Slovenčina](README-sk.md) | 🇩🇪 [Deutsch](README-de.md) | 🇭🇺 [Magyar](README-hu.md) | 🇪🇸 [Español](README-es.md)
+
+<hr>
 
 # 🎨 Tema colore Amber Modern
 
@@ -15,7 +17,7 @@
 
 Amber Modern utilizza una tavolozza di colori estesa e richiede quindi l'attivazione di **Virtual Terminal Rendering**. L'impostazione necessaria è già abilitata nel file del tema.
 
-1. [Scarica il tema](../AmberModernAndVtrEnabler.farconfig) e inserisci il file nella directory di Far Manager.
+1. [Scarica il tema](https://github.com/LanKing/far-tools/releases/latest/download/AmberModernAndVtrEnabler.farconfig) e inserisci il file nella directory di Far Manager.
 2. Chiudi completamente tutte le istanze di Far Manager in esecuzione.
 3. Esegui il comando:
 
@@ -28,5 +30,3 @@ Amber Modern utilizza una tavolozza di colori estesa e richiede quindi l'attivaz
 ## 📄 Licenza
 
 Amber Modern è distribuito con [licenza MIT](../LICENSE). Miglioramenti e suggerimenti sono benvenuti 😊
-
-Far Manager è distribuito con [licenza BSD 3-Clause](https://github.com/FarGroup/FarManager/blob/master/LICENSE).

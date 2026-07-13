@@ -1,4 +1,6 @@
-[🇺🇸 English](../README.md) | [🇧🇾 Беларуская](README-be.md) | [<sub>ru</sub> Русский](README-ru.md) | [🇵🇱 Polski](README-pl.md) | [🇨🇿 Čeština](README-cs.md) | [🇸🇰 Slovenčina](README-sk.md) | [🇩🇪 Deutsch](README-de.md) | [🇭🇺 Magyar](README-hu.md) | [🇮🇹 Italiano](README-it.md) | [🇪🇸 Español](README-es.md)
+🇺🇸 [English](../README.md) | 🇧🇾 [Беларуская](README-be.md) | <sub>ru</sub> [Русский](README-ru.md) | 🇵🇱 [Polski](README-pl.md) | 🇨🇿 [Čeština](README-cs.md) | 🇸🇰 [Slovenčina](README-sk.md) | 🇩🇪 [Deutsch](README-de.md) | 🇭🇺 [Magyar](README-hu.md) | 🇮🇹 [Italiano](README-it.md) | 🇪🇸 [Español](README-es.md)
+
+<hr>
 
 # 🎨 Колірна тема Amber Modern
 
@@ -15,7 +17,7 @@
 
 Amber Modern використовує розширену колірну палітру, тому потребує ввімкненого **Virtual Terminal Rendering**. Необхідне налаштування вже ввімкнене у файлі теми.
 
-1. [Завантажте тему](../AmberModernAndVtrEnabler.farconfig) і помістіть файл у каталог Far Manager.
+1. [Завантажте тему](https://github.com/LanKing/far-tools/releases/latest/download/AmberModernAndVtrEnabler.farconfig) і помістіть файл у каталог Far Manager.
 2. Повністю закрийте всі запущені екземпляри Far Manager.
 3. Виконайте команду:
 
@@ -28,5 +30,3 @@ Amber Modern використовує розширену колірну палі
 ## 📄 Ліцензія
 
 Amber Modern поширюється за [ліцензією MIT](../LICENSE). Доопрацювання та пропозиції вітаються 😊
-
-Far Manager поширюється за [ліцензією BSD 3-Clause](https://github.com/FarGroup/FarManager/blob/master/LICENSE).

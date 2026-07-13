@@ -1,0 +1,30 @@
+name: Publish Amber Modern
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - themes/AmberModern/AmberModernAndVtrEnabler.farconfig
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Create release and upload theme
+        env:
+          GH_TOKEN: ${{ github.token }}
+          VERSION: 1.0.${{ github.run_number }}
+        run: |
+          gh release create "amber-modern-v$VERSION" \
+            themes/AmberModern/AmberModernAndVtrEnabler.farconfig#AmberModernAndVtrEnabler.farconfig \
+            --title "Amber Modern v$VERSION" \
+            --notes "Automatic release of the updated Amber Modern theme." \
+            --latest
