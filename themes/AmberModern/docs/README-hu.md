@@ -17,7 +17,7 @@
 
 Az Amber Modern kibővített színpalettát használ, ezért be kell kapcsolni a **Virtual Terminal Rendering** funkciót. A szükséges beállítás már engedélyezve van a témafájlban.
 
-1. [Töltse le a témát](https://github.com/LanKing/far-tools/releases/latest/download/AmberModernAndVtrEnabler.farconfig), és helyezze a fájlt a Far Manager könyvtárába.
+1. [Töltse le a témát](https://github.com/LanKing/far-tools/releases/download/amber-modern-latest/AmberModernAndVtrEnabler.farconfig), és helyezze a fájlt a Far Manager könyvtárába.
 2. Zárja be teljesen a Far Manager összes futó példányát.
 3. Futtassa a következő parancsot:
 

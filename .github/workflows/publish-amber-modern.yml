@@ -6,6 +6,7 @@ on:
       - main
     paths:
       - themes/AmberModern/AmberModernAndVtrEnabler.farconfig
+      - themes/AmberModern/VERSION
 
 permissions:
   contents: write
@@ -17,14 +18,58 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Calculate version
+        shell: bash
+        run: |
+          BASE_VERSION="$(tr -d '[:space:]' < themes/AmberModern/VERSION)"
+
+          if [[ ! "$BASE_VERSION" =~ ^[0-9]+\.[0-9]+$ ]]; then
+            echo "VERSION must contain major.minor, for example 1.0"
+            exit 1
+          fi
+
+          LAST_PATCH="$(
+            git tag --list "amber-modern-v$BASE_VERSION.*" \
+              | sed -E "s/^amber-modern-v${BASE_VERSION//./\\.}\.([0-9]+)$/\1/" \
+              | grep -E '^[0-9]+$' \
+              | sort -n \
+              | tail -n 1 \
+              || true
+          )"
+
+          if [[ -z "$LAST_PATCH" ]]; then
+            PATCH=0
+          else
+            PATCH=$((LAST_PATCH + 1))
+          fi
+
+          echo "VERSION=$BASE_VERSION.$PATCH" >> "$GITHUB_ENV"
 
       - name: Create release and upload theme
         env:
           GH_TOKEN: ${{ github.token }}
-          VERSION: 1.0.${{ github.run_number }}
         run: |
           gh release create "amber-modern-v$VERSION" \
             themes/AmberModern/AmberModernAndVtrEnabler.farconfig#AmberModernAndVtrEnabler.farconfig \
             --title "Amber Modern v$VERSION" \
             --notes "Automatic release of the updated Amber Modern theme." \
-            --latest
+            --latest=false
+
+      - name: Update permanent download
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if gh release view amber-modern-latest > /dev/null 2>&1; then
+            gh release upload amber-modern-latest \
+              themes/AmberModern/AmberModernAndVtrEnabler.farconfig#AmberModernAndVtrEnabler.farconfig \
+              --clobber
+          else
+            gh release create amber-modern-latest \
+              themes/AmberModern/AmberModernAndVtrEnabler.farconfig#AmberModernAndVtrEnabler.farconfig \
+              --title "Amber Modern — latest" \
+              --notes "Permanent download for the latest Amber Modern theme." \
+              --prerelease
+          fi

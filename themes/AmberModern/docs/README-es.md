@@ -17,7 +17,7 @@
 
 Amber Modern utiliza una paleta de colores ampliada, por lo que requiere tener activado **Virtual Terminal Rendering**. El ajuste necesario ya está habilitado en el archivo del tema.
 
-1. [Descarga el tema](https://github.com/LanKing/far-tools/releases/latest/download/AmberModernAndVtrEnabler.farconfig) y coloca el archivo en el directorio de Far Manager.
+1. [Descarga el tema](https://github.com/LanKing/far-tools/releases/download/amber-modern-latest/AmberModernAndVtrEnabler.farconfig) y coloca el archivo en el directorio de Far Manager.
 2. Cierra por completo todas las instancias de Far Manager que estén en ejecución.
 3. Ejecuta el comando:
 
