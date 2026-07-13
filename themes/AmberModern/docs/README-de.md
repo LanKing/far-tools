@@ -1,23 +1,23 @@
 🇺🇸 [English](../README.md) | 🇺🇦 [Українська](README-uk.md) | 🇧🇾 [Беларуская](README-be.md) | <sub>ru</sub> [Русский](README-ru.md) | 🇵🇱 [Polski](README-pl.md) | 🇨🇿 [Čeština](README-cs.md) | 🇸🇰 [Slovenčina](README-sk.md) | 🇭🇺 [Magyar](README-hu.md) | 🇮🇹 [Italiano](README-it.md) | 🇪🇸 [Español](README-es.md)
 
-<hr>
+[![Far Manager](https://img.shields.io/badge/Far%20Manager-3.x-7A4B21)](https://www.farmanager.com/) [![Downloads](https://img.shields.io/github/downloads/LanKing/far-tools/AmberModernAndVtrEnabler.farconfig/total?label=downloads&color=B87938)](https://github.com/LanKing/far-tools/releases/download/amber-modern-latest/AmberModernAndVtrEnabler.farconfig) [![Version](https://img.shields.io/github/v/release/LanKing/far-tools?filter=amber-modern-v%2A&sort=semver&label=version&color=B87938)](https://github.com/LanKing/far-tools/releases) [![License](https://img.shields.io/badge/license-MIT-B87938)](../LICENSE) ![VT required](https://img.shields.io/badge/rendering-VT%20required-B87938)
 
 # 🎨 Farbschema Amber Modern
 
-> Für alle, die das klassische Blau des Far Managers leid sind und ein modernes, ruhiges und augenfreundliches Farbschema suchen.
+> Für alle, die genug vom klassischen Blau des Far Managers haben und ein modernes, ruhiges und augenfreundliches Farbschema suchen.
 
 ![Gesamtansicht](demo.png)
 
 ## 📓 Hinweise
 
-1. Das Design ändert die Regeln für die Dateifärbung nicht — es verwendet die bereits im Far Manager konfigurierten Regeln.
-2. Das Design legt die Grundfarben von Editor und Betrachter fest, enthält jedoch keine eigene Syntaxhervorhebung. Für den Editor verwende ich [Monokai](https://github.com/joric/monokai) und kann es empfehlen.
+1. Das Farbschema ändert die Regeln für die Dateifärbung nicht — es verwendet die bereits im Far Manager konfigurierten Regeln.
+2. Das Farbschema legt die Grundfarben von Editor und Betrachter fest, enthält jedoch keine eigene Syntaxhervorhebung. Für den Editor verwende ich [Monokai](https://github.com/joric/monokai) und kann es empfehlen.
 
 ## 📦 Installation
 
-Amber Modern verwendet eine erweiterte Farbpalette und benötigt daher aktiviertes **Virtual Terminal Rendering**. Die erforderliche Einstellung ist bereits in der Designdatei aktiviert.
+Amber Modern verwendet eine erweiterte Farbpalette und benötigt daher aktiviertes **Virtual Terminal Rendering**. Die erforderliche Einstellung ist bereits in der Datei des Farbschemas aktiviert.
 
-1. [Laden Sie das Design herunter](https://github.com/LanKing/far-tools/releases/download/amber-modern-latest/AmberModernAndVtrEnabler.farconfig) und legen Sie die Datei im Far-Manager-Verzeichnis ab.
+1. [Laden Sie das Farbschema herunter](https://github.com/LanKing/far-tools/releases/download/amber-modern-latest/AmberModernAndVtrEnabler.farconfig) und legen Sie die Datei im Far-Manager-Verzeichnis ab.
 2. Schließen Sie alle laufenden Instanzen des Far Managers vollständig.
 3. Führen Sie folgenden Befehl aus:
 
